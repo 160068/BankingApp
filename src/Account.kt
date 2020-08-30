@@ -1,9 +1,11 @@
-import Client
+class Account(val clientName: String) {
 
-open class Account : Client() {
-    open val accountType : String = ""
-    val withdraw : String = ""
-    val deposit : String = ""
+    val clientId : Int = 0
+    var balance = 0f
 
+    fun withdraw() {
+
+    }
 
 }
+

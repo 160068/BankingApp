@@ -1,6 +1,5 @@
-import Account
 
-open class Savings: Account() {
+open class Savings() {
     val taxFree: String = ""
     val easyAccess: String = ""
 }
